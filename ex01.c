@@ -2,16 +2,18 @@
 
 int main()
 {
-
- int variabile6;
+ int numero1;
  printf("inserisci un numero\n");
- scanf(" %d", &variabile6);
- printf()
- int variabile4;
+ scanf(" %d", &numero1);
+  
+ int numero2;
  printf("inserisci un altro numero\n");
- scanf(" %d", &variabile4);
-printf("variabile6= %d\n faf", variabile6);
+ scanf(" %d", &numero2);
 
+ int sommaNum;
+ sommaNum = numero1 + numero2;
+ 
+ printf("la somma dei numeri inseriti è ", sommaNum);
 
-    return(0);
+ return(0);
 }
