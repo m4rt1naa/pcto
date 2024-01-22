@@ -13,7 +13,8 @@ int main()
  int sommaNum;
  sommaNum = numero1 + numero2;
  
- printf("la somma dei numeri inseriti è ", sommaNum);
+ printf("la somma dei numeri inseriti (sommando qui le var) è %d\n", numero1 + numero2);
+ printf("la somma dei numeri inseriti (con var che gia contiene la somma) è %d\n", sommaNum);
 
  return(0);
 }
